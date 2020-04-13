@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/fpis5.5/src/main/scala/StreamTakeWhileTest.scala:44:14: pattern type is incompatible with expected type;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Empty.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: A[0m
+[0m[[0m[31merror[0m] [0m[0m        case Empty => Empty[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/fpis5.5/src/main/scala/StreamTakeWhileTest.scala:45:31: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: A[0m
+[0m[[0m[31merror[0m] [0m[0m        case Cons(h, t) if p(h()) => Cons(h, t)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/allen/rep/fpis5.5/src/main/scala/StreamTakeWhileTest.scala:42:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Stream[A][0m
+[0m[[0m[31merror[0m] [0m[0m    this.foldRight(){ (e, acc) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
